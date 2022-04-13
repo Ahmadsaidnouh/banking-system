@@ -1,0 +1,42 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(13, 109, 253, 0) !important;
+}
+
+.form-select:focus,
+.form-control:focus {
+
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.main-bg {
+    background: rgb(28, 73, 131);
+    background: linear-gradient(90deg, rgba(28, 73, 131, 1) 0%, rgba(18, 7, 37, 1) 35%);
+}
+
+.main-btn {
+    background-color: rgb(28, 73, 131);
+    transition: 0.5s background-color border-color !important;
+}
+
+.main-btn:hover {
+    background-color: rgb(18, 7, 37);
+}
